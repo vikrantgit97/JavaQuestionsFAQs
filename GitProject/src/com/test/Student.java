@@ -16,7 +16,7 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public String toString() {
-		return "Student = name:" + name + ", city:" + city + ", id:" + id + "  ";
+		return "Student >>  name:" + name + ", city:" + city + ", id:" + id + "  ";
 	}
 
 	public int compareTo(Student a) {
@@ -34,7 +34,7 @@ public class Student implements Comparable<Student> {
 		al.add(new Student("sagar", "raver", 2));
 		al.add(new Student("vikrant", "takali", 5));
 		al.add(new Student("amruta", "solapur", 1));
-
+		
 		Collections.sort(al);
 		for (Student s : al) {
 			System.out.println(s);
