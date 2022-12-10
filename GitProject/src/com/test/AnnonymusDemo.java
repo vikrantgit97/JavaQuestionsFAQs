@@ -24,5 +24,4 @@ public class AnnonymusDemo {
 		t.m1();
 		t.m2();
 	}
-
 }
