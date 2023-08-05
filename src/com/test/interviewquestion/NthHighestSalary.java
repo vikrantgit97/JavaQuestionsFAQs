@@ -18,7 +18,6 @@ public class NthHighestSalary {
         map1.put("daniel", 1700);
         map1.put("james", 1400);
 
-
         Map<String, Integer> map2 = new HashMap<>();
         map2.put("anil", 1000);
         map2.put("ankit", 1200);
@@ -27,11 +26,9 @@ public class NthHighestSalary {
         map2.put("micael", 1000);
         map2.put("tom", 1300);
         map2.put("daniel", 1300);
-
+  
         System.out.println(getNthHighestSalary(2, map2));
         System.out.println(getDynamicNthHighestSalary(2, map2));
-
-
     }
 
     public static Map.Entry<String, Integer> getNthHighestSalary(int num, Map<String, Integer> map) {
@@ -54,5 +51,4 @@ public class NthHighestSalary {
                 .collect(Collectors.toList())
                 .get(num - 1);
     }
-
 }
