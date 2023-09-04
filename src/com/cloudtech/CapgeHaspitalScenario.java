@@ -1,4 +1,4 @@
-package com.test.cloudtech;
+package com.cloudtech;
 
 import java.util.Arrays;
 import java.util.List;

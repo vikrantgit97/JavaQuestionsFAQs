@@ -1,4 +1,4 @@
-package com.test.cloudtech;
+package com.cloudtech;
 
 class Queue {
 

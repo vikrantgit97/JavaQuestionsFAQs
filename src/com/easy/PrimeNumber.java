@@ -1,4 +1,4 @@
-package com.test.easy;
+package com.easy;
 
 /** number which is divisible by two numbers only i.e. 1 and itself only */
 public class PrimeNumber {

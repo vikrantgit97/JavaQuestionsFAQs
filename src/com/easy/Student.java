@@ -1,4 +1,4 @@
-package com.test.easy;
+package com.easy;
 
 import java.util.ArrayList;
 import java.util.Collections;

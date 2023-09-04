@@ -1,4 +1,4 @@
-package com.test.sdet.code;
+package com.code;
 
 import java.io.BufferedReader;
 import java.io.File;

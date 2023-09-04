@@ -1,4 +1,4 @@
-package com.test.easy;
+package com.easy;
 // find missing number between the sequence
 public class ArrayMissingElement {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.test.easy;
+package com.easy;
 
 public class ReverseNumber {
     public static void main(String[] args) {

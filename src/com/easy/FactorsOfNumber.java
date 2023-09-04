@@ -1,5 +1,5 @@
-package com.test.easy;
-public class FactorOfNumber {
+package com.easy;
+public class FactorsOfNumber {
 
     public static void main(String[] args) {
         int number = 15;

@@ -1,4 +1,4 @@
-package com.test.easy;
+package com.easy;
 
 // wap a program to print fibonassi series of number 10 i.e. 0 1 1 2 3 5 8 13 21 34  
 public class FibonassiSeries {
