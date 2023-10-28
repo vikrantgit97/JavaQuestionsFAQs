@@ -1,4 +1,4 @@
-package practice;
+package practice.sdet;
 
 import java.util.HashMap;
 import java.util.Iterator;
