@@ -8,7 +8,7 @@ public class CountingVowelsAndNumbersFromFile {
     public static void main(String[] args) {
         int vowelCount = 0,numberCount=0;
         try {
-            FileInputStream fileinputstream = new FileInputStream("src/com/test/easy/demo.txt");
+            FileInputStream fileinputstream = new FileInputStream("src/practice/easy/demo.txt");
             Scanner scanner = new Scanner(fileinputstream);
             while (scanner.hasNextLine()) {
                 String store = scanner.nextLine();     // Storing each line of String into store variable

@@ -12,6 +12,7 @@ public class ArraySecondHighestElement {
 
         int arr[] = {1, 2, 4, 56, 89, 5};
 
+        // 1st way
         if (arr.length < 2) {
             System.out.println("There is no second-highest element in the array.");
         } else {
@@ -26,8 +27,7 @@ public class ArraySecondHighestElement {
         }
 
 
-        // Another way--------------------------------------------------------------------
-
+        // 2nd way
         if (arr.length < 2) {
             System.out.println("There is no second-highest element in the array.");
         } else {
@@ -51,5 +51,18 @@ public class ArraySecondHighestElement {
                 System.out.println("The second-highest element in the array is: " + secondMax);
             }
         }
+
+        // 3rd way
+        int highest = 0;
+        int secondHighest = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (highest < arr[i]) {
+                secondHighest = highest;
+                highest = arr[i];
+            } else if (secondHighest < arr[i]) {
+                secondHighest = arr[i];
+            }
+        }
+        System.out.println("The second-highest element in the array is: " + secondHighest);
     }
 }
