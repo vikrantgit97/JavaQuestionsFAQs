@@ -12,7 +12,7 @@ public class ArraySecondHighestElement {
 
         int arr[] = {1, 2, 4, 56, 89, 5};
 
-        // 1st way
+        // 1st way Arrays.sort
         if (arr.length < 2) {
             System.out.println("There is no second-highest element in the array.");
         } else {
@@ -64,5 +64,17 @@ public class ArraySecondHighestElement {
             }
         }
         System.out.println("The second-highest element in the array is: " + secondHighest);
+
+
+        // 4th Way bubble sort
+        int temp =0;
+        for(int i=0;i<arr.length;i++){
+            for(int j=i;j< arr.length;j++){
+                temp = arr[i];
+                arr[i]=arr[j];
+                arr[j] =temp;
+            }
+        }
+        System.out.println("bubble sort The second-highest element in the array is: " + temp);
     }
 }
