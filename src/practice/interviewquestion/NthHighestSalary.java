@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class NthHighestSalary {
-    //refernced from javatechie Nyntra interview question
+    //referenced from javatechie Myntra interview question
     public static void main(String[] args) {
         Map<String, Integer> map1 = new HashMap<>();
         map1.put("anil", 1000);
