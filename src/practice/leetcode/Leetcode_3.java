@@ -48,6 +48,7 @@ public class Leetcode_3 {
         }
         System.out.println(set.size());
         System.out.println(lengthOfLongestSubstring(str));
+        System.out.println(lengthOfLongestSubstrings(str));
     }
 
 
@@ -64,5 +65,21 @@ public class Leetcode_3 {
             }
         }
         return maxLength;
+    }
+
+    public static int lengthOfLongestSubstrings(String s) {
+        int n = s.length(), left = 0, length = 0;
+        boolean[] appeared = new boolean[128];
+        char[] str = s.toCharArray();
+        for (int i = 0; i < n; i++) {
+            if (appeared[str[i]]) {
+                while (str[left] != str[i]) appeared[str[left++]] = false;
+                left++;
+            } else {
+                appeared[str[i]] = true;
+            }
+            length = Math.max(length, i - left + 1);
+        }
+        return length;
     }
 }
