@@ -8,7 +8,7 @@ package practice.interviewquestion;
 public class FindLastWordLength {
 
     public static void main(String[] args) {
-        String str ="how are your ";
+        String str = "how are your  ";
 
         // trim string to remove spaces
         str = str.trim();
@@ -17,7 +17,7 @@ public class FindLastWordLength {
         int i = str.lastIndexOf(' ');//used to find index of last space in trimmed string
 
         // extract substring from last space to end of string
-        String lastWord=str.substring(i + 1);
+        String lastWord = str.substring(i + 1);
 
         System.out.println(lastWord.length());
     }
