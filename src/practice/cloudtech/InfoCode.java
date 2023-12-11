@@ -13,6 +13,5 @@ public class InfoCode {
         System.out.println(obj);
         obJoiner.merge(obj); //merging using predifine method
         System.out.println(obJoiner);
-
     }
 }
