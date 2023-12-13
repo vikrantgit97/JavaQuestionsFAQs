@@ -11,15 +11,15 @@ import java.util.stream.Collectors;
  */
 public class CountDuplicates {
     public static void main(String[] args) {
-        List<String> list = List.of("apple","facebook","whatsApp",
-                "facebook","whatsApp");
+        List<String> list = List.of("apple", "facebook", "whatsApp",
+                "facebook", "whatsApp");
 
         Map<String, Long> collect = list.stream().collect(
                         Collectors.groupingBy(String::toString, Collectors.counting())).
                 entrySet().stream().filter(entry -> entry.getValue() > 1).
                 collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
-        collect.forEach((k,v)-> System.out.println("duplicates key "+k+ " & values "+v));
+        collect.forEach((k, v) -> System.out.println("duplicates key " + k + " & values " + v));
 
     }
 }
