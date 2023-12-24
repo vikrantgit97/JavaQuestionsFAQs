@@ -1,4 +1,4 @@
-package practice.kk;
+package practice.kk.operators;
 
 /**
  * @author Vikrant on 21-12-2023
