@@ -67,12 +67,12 @@ public class ArraySecondHighestElement {
 
 
         // 4th Way bubble sort
-        int temp =0;
-        for(int i=0;i<arr.length;i++){
-            for(int j=i;j< arr.length;j++){
+        int temp = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
                 temp = arr[i];
-                arr[i]=arr[j];
-                arr[j] =temp;
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
         System.out.println("bubble sort The second-highest element in the array is: " + temp);
