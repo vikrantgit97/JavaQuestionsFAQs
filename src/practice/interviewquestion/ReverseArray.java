@@ -1,7 +1,5 @@
 package practice.interviewquestion;
 
-import java.util.Arrays;
-
 /**
  * @author Vikrant on 22-12-2023
  * @version V1.0
