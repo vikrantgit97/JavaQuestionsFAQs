@@ -23,9 +23,9 @@ public class Question_1 {
 
         // print the palindrome word from string (sentence)
         String str = "hello I have tot go non malyalam";
-        String str1[] = str.split(" ");
-        for (int i = 0; i < str1.length; i++) {
-            String original = str1[i];
+        String strArr[] = str.split(" ");
+        for (int i = 0; i < strArr.length; i++) {
+            String original = strArr[i];
             String revString = "";
             for (int j = original.length() - 1; j >= 0; j--) {
                 revString = revString + original.charAt(j);
