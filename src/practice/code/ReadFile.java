@@ -11,7 +11,7 @@ public class ReadFile {
 	public static void main(String[] args) throws IOException {
 	// Approach 1: using fileReader BufferReader
 
-		/*FileReader fr = new FileReader("D:\\demo.txt");
+		FileReader fr = new FileReader("src/practice/easy/demo.txt");
 		BufferedReader br = new BufferedReader(fr);
 		String str;
 
@@ -19,12 +19,12 @@ public class ReadFile {
 			System.out.println(str);
 		}
 		fr.close();
-		br.close();*/
+		br.close();
 		
 		
 	// Approach 2: using scanner and file
 		
-		File file=new File("D:\\demo.txt");//read from desktop location C:\\Users\\HP\\Desktop\\Note.txt
+		File file=new File("src/practice/easy/demo.txt");//read from desktop location C:\\Users\\HP\\Desktop\\Note.txt
 		Scanner sc=new Scanner(file);
 		
 		//loop statement
