@@ -14,7 +14,7 @@ public class ReverseNumber {
 
         while (number != 0) {   // 2 way
             int remainder = number % 10;
-            reverse = remainder + reverse * 10;
+            reverse =  reverse + remainder * 10;
             number = number / 10;
         }
         System.out.println(reverse);
