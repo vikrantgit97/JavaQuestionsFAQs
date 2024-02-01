@@ -1,6 +1,10 @@
 package practice.patterns;
 
-
+/**
+ * @author Vikrant on 01-02-2024
+ * @version V1.0
+ * @Project JavaQuestionsFAQs
+ */
 public class ColumnRows {
     public static void main(String[] args) {
 
