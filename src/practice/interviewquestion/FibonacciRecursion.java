@@ -13,7 +13,7 @@ public class FibonacciRecursion {
         }
 
         //print any fibonacci number at index 6 th
-        System.out.println(fibonacci(6));
+        System.out.println(fibonacci(6)); 
     }
 
     public static int fibonacci(int n) {
