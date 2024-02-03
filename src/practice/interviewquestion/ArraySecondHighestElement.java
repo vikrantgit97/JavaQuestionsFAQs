@@ -75,6 +75,6 @@ public class ArraySecondHighestElement {
                 arr[j] = temp;
             }
         }
-        System.out.println("bubble sort The second-highest element in the array is: " + temp);
+        System.out.println("bubble sort The second-highest element in the array is: " + arr[temp]);
     }
 }
