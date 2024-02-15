@@ -6,8 +6,11 @@ import java.util.Set;
 
 public class FindDuplicatesTriplicatesFromArray {
     public static void main(String[] args) {
+
         int arr[] = { 5, 5, 1, 1, 1, 6, 6, 0 };
+
         Map<Integer, Integer> map = new HashMap<>();
+        
         for (int i = 0; i < arr.length; i++) {
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
         }
@@ -28,8 +31,6 @@ public class FindDuplicatesTriplicatesFromArray {
                 System.out.print(i + " ");
             }
         }
-
-
 
     }
 }
