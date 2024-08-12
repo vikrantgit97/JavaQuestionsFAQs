@@ -16,5 +16,6 @@ public class InsertMultipleSpaceInString {
             sb.insert(i," ");
         }
         return sb.toString();
+
     }
 }
